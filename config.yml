@@ -1,0 +1,18 @@
+##  WarpControl v1.0.0
+##  Config file
+
+##  You may create your own groups below in the same format.
+##  All players that you wish to allow to set warps must either have
+##  the permission 'wc.setwarp.unlimited' or one of the below custom permissions.
+##  An example of a permission from below is 'wc.setwarp.default' would allow a player to set 1 warp
+##  In addition to this permission, the player must have 'wc.setwarp' permission to use the command.
+
+groups:
+  default: 1
+  Member: 2
+  VIP+: 3
+  Donor: 4
+
+
+##  Teleport delay after the command is ran. This time is in seconds.
+teleport-delay: 3
