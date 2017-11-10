@@ -1,0 +1,33 @@
+##  WarpControl v1.0.0
+##  Messages file
+
+##  WARP
+warp-correct-format: '&eUse the correct format &f/warp NAME'
+warp-noperm: '&cYou do not have permission to use warp.'
+warp-name-noperm: '&cYou do not have permission to use that warp'
+warp-tp-delay: '&eYou will be teleported in {tpdelay} seconds'  ## {tpdelay} is the teleport delay from config.yml
+
+##  SETWARP
+setwarp-noperm: '&cYou do not have permission to set warps.'
+new-warp: '&aYou created a new warp named &f{warpname}.'  ##  {warpname} is the name of the warp
+no-more-allowed: '&cYou are not allowed to set any more warps.'
+warp-already-stored: '&cThere is already a warp named that.'
+setwarp-correct-format: '&eUse the correct format &f/setwarp NAME'
+
+##  DELWARP
+delwarp-noperm: '&cYou do not have permission to delete warps.'
+delwarp-nowarp: '&cThere is not a warp named that stored.'
+delwarp-remove: '&aYou removed the warp name &f{warpname}'  ##  {warpname} is the name of the warp
+delwarp-not-setter: '&cYou are not the setter of that warp'
+delwarp-correct-format: '&eUse the correct format &f/delwarp NAME'
+
+##  WARPS
+warps-noperm: '&cYou do not have permission to view warps.'
+warps-list: '&eAvailable warps: &f{warplist}'  ## {warplist} is a list of all warps
+warps-correct-format-self: '&eUse the correct format &f/warps -s &eto see your warps.'
+warps-own-warps: '&eYour warps are: &f{playerwarps}'  ## {playerwarps} is a list of warp of the player running command
+warps-other-warps: '&eWarps for &f{target} &eare: &f{otherplayerwarps}' ##  {otherplayerwarps} is a list of the {target} player
+warps-never-played: '&cThat player has never player this server.'
+
+##  RELOAD
+reload-noperm: '&cYou do not have permission to reload WarpControl files'
